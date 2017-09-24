@@ -60,7 +60,7 @@ function total() {
 function removeFromCart(item) {
   for(var i = 0; i < cart.length; i++){
     var keys = Object.keys(cart[i])
-    if(cart.hasOwnProperty(item)){
+    if(cart[i].hasOwnProperty(item)){
       cart.splice(cart[i],1);
       return cart
     }
