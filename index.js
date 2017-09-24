@@ -60,7 +60,7 @@ function total() {
 function removeFromCart(item) {
   for(key in cart){
     if(cart.hasOwnProperty(key)){
-      
+
     }
     else {
       return "That item is not in your cart."
